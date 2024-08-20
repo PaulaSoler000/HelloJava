@@ -99,5 +99,6 @@ public class HelloWorld {
 
     public int myFunction(int myFirstNumber, int mySecondNumber) {
         return myFirstNumber + mySecondNumber;
+
     }
 }
