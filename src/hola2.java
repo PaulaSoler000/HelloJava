@@ -4,7 +4,7 @@ public class hola2 {
         String myString = "una frase";
         int myInt = 1;
 
-        myString = myString + myInt;
+//        myString = myString + myInt;
 
 //        System.out.println(myString);
 
@@ -59,7 +59,6 @@ public class hola2 {
         }else{
             System.out.println("incorrecto");
         }
-
 
 
     }
