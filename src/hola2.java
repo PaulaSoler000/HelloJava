@@ -21,6 +21,7 @@ public class hola2 {
 //                System.out.println(i);
 //            }
 //        }
+
 // int edad de grogu = 50
 // cuantos años van a pasar hasta que grogu tenga 200
 // solo un bucle
@@ -53,13 +54,22 @@ public class hola2 {
 //            }
 //        }
 
-        String nombre = "grogu";
-        if (nombre.equals("grogu")){
-            System.out.println("correcto");
-        }else{
-            System.out.println("incorrecto");
-        }
+//        String nombre = "grogu";
+//        if (nombre.equals("grogu")){
+//            System.out.println("correcto");
+//        }else{
+//            System.out.println("incorrecto");
+//        }
 
 
+        String hola = "hola me llamo grogu";
+
+            for (int i =0; i<hola.length(); i++){
+
+                if(hola.charAt(i)!=' ') {
+                    System.out.println(hola.charAt(i));
+                }
+
+            }
     }
 }
