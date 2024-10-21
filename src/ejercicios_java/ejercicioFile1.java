@@ -13,10 +13,15 @@ public class ejercicioFile1 {
         String ruta = sc.nextLine();
 
         File objFile = new File(ruta);
+//        File tpm;
 
         String[] archivos = objFile.list();
+
         for (String archivo : archivos) {
             //System.out.println(archivo);
+
+//            tpm = new File(ruta + "\\" + archivo);
+//            if (tpm.isDirectory()) {
 
             if(new File(objFile, archivo).isDirectory()) {
                 System.out.println("**" + archivo);
