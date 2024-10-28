@@ -27,6 +27,8 @@ public class ejericioFileOutputStream2 {
             FileOutputStream fos = new FileOutputStream(fr2);
             fos.write(0);
             fos.write(1);
+            fos.write(2);
+            fos.close();
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
